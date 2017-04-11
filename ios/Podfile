@@ -16,6 +16,7 @@ target 'ReactNativeStarter' do
   # You don't necessarily need all of these subspecs, but this would be a typical setup.
   pod 'React', :path => '../../react-native', :subspecs => [
     'Core',
+    'CxxBridge',
     'RCTText',
     'RCTNetwork',
     'RCTWebSocket', # needed for debugging
